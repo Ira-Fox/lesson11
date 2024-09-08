@@ -1,0 +1,183 @@
+.uk-cover-container {
+  width: 100%;
+  min-height: 600px;
+  background-color: #8f6464;
+  position: relative;
+}
+
+.uk-text-white {
+  color: white !important;
+}
+
+.menu-button .uk-button {
+  height: 50px !important;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  margin: 15% auto;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  position: relative;
+}
+.uk-input,
+.submit {
+  width: 70%;
+  height: 45px;
+  border: 1px solid #8f6464;
+  border-radius: 40px;
+  margin: 10px auto;
+  padding-left: 10px;
+  background-color: #c49090;
+  color: #ffffff;
+}
+
+.submit {
+  width: 20%;
+  height: 50px !important;
+  background-color: #795151;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 0px;
+}
+
+.uk-input:hover,
+.uk-input:focus {
+  background-color: #dab6b6;
+  border: 1px solid;
+}
+
+.submit:hover,
+.submit:focus {
+  background-color: #573a3a !important;
+}
+
+.registration,
+.cabinet,
+.login {
+  width: 99.95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  background-color: #dfbcbc;
+}
+
+.registration,
+.login {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.registration h2,
+.cabinet h1,
+.login h2 {
+  color: #8f6464;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 6%;
+}
+.cabinet h1{
+  top: -6%;
+}
+.registration h2,
+.login h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 0;
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.uk-input:-webkit-autofill {
+  background-color: #dab6b6 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #c49090 inset !important;
+  color: #ffffff !important;
+  padding-left: 10px !important;
+}
+
+.uk-input:-webkit-autofill:focus {
+  background-color: #dab6b6 !important;
+  -webkit-box-shadow: 0 0 0px 1000px #dab6b6 inset !important;
+  color: #ffffff !important;
+  padding-left: 10px !important;
+}
+
+footer .uk-margin {
+  margin: 0 auto;
+}
+
+footer .uk-panel {
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+footer .uk-grid-small {
+  width: 90%;
+}
+
+footer .style {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+footer .dreamshare {
+  padding-top: 2%;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #8f6464;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #dab6b6;
+  min-height: 100vh;
+}
+
+section {
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+footer {
+  z-index: 10;
+  height: 350px;
+  background-color: #c49090;
+}
+
+.uk-card-body {
+  width: 250px !important;
+  min-height: 100px;
+  text-align: center;
+  justify-content: center;
+  padding: 0 auto;
+  margin-bottom: 20px;
+}
